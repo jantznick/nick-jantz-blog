@@ -1,0 +1,40 @@
+.ql-container {
+	font-size: 1.5em;
+}
+
+#comment-box {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#toolbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+#toolbar-left {
+	flex-grow: 1;
+}
+
+#post-button,
+#clear-comment {
+	border: 1px solid black;
+	height: 100%;
+	width: unset;
+	border-radius: .25em;
+}
+
+#post-button:hover,
+#clear-comment:hover {
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+#clear-comment {
+	margin-right: 1em;
+}
+
+.ql-editor img {
+	margin: 0 15px;
+}
