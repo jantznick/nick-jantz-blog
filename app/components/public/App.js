@@ -11,7 +11,7 @@ class App extends React.Component {
 				<div id="blog">
 
 					<div className="individual-blog">
-						<a href="/post">
+						<a href="/single">
 							<h2 className="section-title post-cta-top">
 								<span className="post-cta-left">
 									Cupcakes
@@ -33,7 +33,7 @@ class App extends React.Component {
 						</p>
 
 						<div className="post-cta-bottom">
-							<a href="/post">0 Comments - Read More</a>
+							<a href="/single">0 Comments - Read More</a>
 						</div>
 					</div>
 
